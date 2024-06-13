@@ -11,20 +11,21 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-
-
 }
 
 #qr-container {
-    margin-top: 5.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card{
     width: 300px;
     padding: 1rem;
     border-radius: 20px;
-    background-color: white;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-   
+    background-color: white;
 }
 
 .qr-image {
@@ -55,49 +56,17 @@ p {
     margin-bottom: 10px;
 }
 
-.attribution { 
-    font-size: 12px; 
-    text-align: center; 
-    margin-top: 5px;
-    color: #7b879d;
-}
-.attribution a { 
-    color: #1f3251; 
-}
-
 @media only screen and (max-width: 480px) {
     #qr-container {
-        margin-top: 2rem;
-        
-        
+        margin-top: 2rem;     
     }
-
-    h3 {
-        font-weight: bold; }
-        
-        
-
     p {
         font-size: 0.875rem;
     }
-
-    .attribution { 
-        font-size: 12px; 
-        text-align: center; 
-        margin-top: 5px;
-        color: #7b879d;
-
-    }
-    .attribution a { 
-        color: #1f3251;
-        
-    }
-  }
+}
 
   @media only screen and (max-width: 320px) {
     #qr-container {
-        width: 280px;
-        
-        
+        width: 280px;    
     }
   }
