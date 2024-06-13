@@ -7,15 +7,16 @@
 
 body {
     background-color: #d6e2f0;
-    display: flexbox;
+    display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
 
+
 }
 
 #qr-container {
-    margin-top: 7rem;
+    margin-top: 5rem;
     width: 300px;
     padding: 1rem;
     border-radius: 20px;
@@ -55,10 +56,13 @@ p {
 }
 
 .attribution { 
-    font-size: 11px; text-align: center; margin-top: 5px;
+    font-size: 11px; 
+    text-align: center; 
+    margin-top: 5px;
+    color: #7b879d;
 }
 .attribution a { 
-    color: hsl(228, 45%, 44%); 
+    color: #1f3251; 
 }
 
 @media only screen and (max-width: 480px) {
@@ -78,10 +82,15 @@ p {
     }
 
     .attribution { 
-        font-size: 12px; text-align: center; margin-top: 5px;
+        font-size: 12px; 
+        text-align: center; 
+        margin-top: 5px;
+        color: #7b879d;
+
     }
     .attribution a { 
-        color: hsl(228, 45%, 44%); 
+        color: #1f3251;
+        
     }
   }
 
